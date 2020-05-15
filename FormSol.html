@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Suscripción boletín</title> 
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<style>  
+h4{font-weight:bold;
+ color:blue;}
+</style>
+</head>
+<body>
+<div class="container-fluid bg-info">	
+<h1 class="text-primary"> Registre</h1>
+	<p class="text-center text-info" ><em> El meu formulari de Bootstrap</em></p>
+</div>
+
+<div class="container">
+<div class="row">   
+<div class="hidden-xs col-sm-1 col-md-2"></div>
+<div class="hidden-xs col-sm-10 col-md-7">
+	<form action="#" method="post" style="margin-top:50px; " class="form-horizontal">	
+
+	<div class="form-group">
+	  <h4>Datos Personales</h4>
+		<label for="nom">Nombre: </label>
+		<input type="text" name="nombre" class="form-control" id="nom"/>   
+	  </div>
+	<div class="form-group">
+		<label for="apell"> Apellidos: </label><input type="text" name="apellidos" class="form-control" id="apell" /> 
+	 </div>
+	 <div class="form-group">
+		<label for="email">  e-mail: </label><input type="number" name="email" class="form-control"id="email"  />
+	 </div>
+	 <div class="form-group">
+		<label for="pass"> contraseña:</label> <input type="password" name="contras" class="form-control"id="pass" />
+	  </div>
+	 <div class="form-group">
+		  <h4>Sexo</h4>
+		   <label class="radio-inline"> <input type="radio" name="sexo" value="V" checked="checked"/> Varón</label>
+		   <label class="radio-inline">  <input type="radio" name="sexo" value="M"/> Mujer</label>
+	 </div>
+	 <div class="form-group">
+	   <h4> Nivel de estudios</h4>
+	   
+	   <label class="radio-inline"><input type="radio" name="estudios" value="basico"checked="checked"
+	   />Graduado en E.S.O.</label> 
+	   <label class="radio-inline"> <input type="radio" name="estudios" value="bachiller"/> Bachiller - Formación Profesional </label> 
+	   <label class="radio-inline"><input type="radio" name="estudios" value="Diplomado"/>Diplomado</label> 
+	   <label class="radio-inline"><input type="radio" name="estudios" value="licenciado"/>Licenciado o Doctorado</label>
+	 </div>
+	 <div class="form-group">
+	 
+	  <h4> Interesado en los siguientes temas:  </h4>
+	   <label class="checkbox-inline"><input type="checkbox" name="musica" checked="true" /> Música </label>
+	   <label class="checkbox-inline"><input type="checkbox" name="deportes"checked="true" /> Deportes </label>
+	   <label class="checkbox-inline"><input type="checkbox" name="cine"/checked="true" > Cine </label>
+	   <label class="checkbox-inline"><input type="checkbox" name="libros"checked="true"  /> Libros </label>
+	  <label class="checkbox-inline"><input type="checkbox" name="ciencia"checked="true" /> Ciencia </label>
+	  
+	  </div>
+	 <div class="form-group">
+	<h4> Día de la semana que le interesa recibirlo:</h4>
+	<select name="dia" class="form-control">
+		<option>...</option> 
+		<option value="lunes">lunes</option> 
+		<option value="Martes">martes</option> 
+		<option value="Miércoles">miercoles</option> 
+		<option value="Jueves">jueves</option> 
+		<option value="Viernes">viernes</option> 
+		<option value="Sábado">sábado</option> 
+		<option value="Domingo">domingo</option> 
+	</select>
+	  </div>
+	 <div class="form-group">
+	<h4> Su opinión: </h4>
+	<textarea name="comentario" rows="5" cols="50"class="form-control" >...</textarea>
+	    </div>
+	 <div class="form-group">
+	  <input type="submit" class="btn btn-success" value="Registro"> 
+	   <input type="reset"  class="btn btn-danger" value="borrar todo"></p>
+	</div>
+	</form>
+ </div>
+ <div class="hidden-xs col-sm-1 col-md-3"></div>
+
+</div>
+		
+		
+ <div class="visible-xs container bg-info " style="margin-top:100px;">
+
+      <h3 class="text-center">Loggin</h3>
+      <form action="" class=" ">
+      
+        <div class="form-group">
+            <label for="user" class="sr-only">Usuario</label>
+            <input type="text" class="form-control" id="user" placeholder="usuario">
+        </div>
+        <div class="form-group">
+            <label for="user" class="sr-only">Contraseña</label>
+            <input type="text" class="form-control" id="user" placeholder="contraseña">
+        </div>
+        <div class="text-right">
+            <div class="checkbox">
+              <label >
+                <input type="checkbox">Recordar
+              </label>
+            </div>
+            <button type="submit" class="btn btn-default">
+              Enviar
+            </button>
+
+       </div>
+   </form>
+
+ </div>
+ 
+</div>
+	
+
+
+	
+
+	
+	
+	<!-- Latest compiled and minified JavaScript -->
+		<script src="js/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+</html>
